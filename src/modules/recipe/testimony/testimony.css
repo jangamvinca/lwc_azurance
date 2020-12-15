@@ -1,0 +1,99 @@
+.testimonyTitleCopy{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #333333;
+
+}
+.testimonyTitleBodyCopy{
+  /* Why our customers love us */
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+letter-spacing: 0.05em;
+
+color: #333333;
+
+text-align: center;
+
+}
+
+.testimonyBodyCopy{
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+letter-spacing: 0.05em;
+
+color: #333333;
+
+text-align: left;
+}
+
+    .buttonactions{
+        background: #68B57C;
+        border-radius: 25px;
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #F5F6F8;
+        display: block;
+        display: inline-block;
+        padding:10px;
+        display:table;
+        margin: 0 auto;
+        margin-top:20px;
+        }
+
+        .container {
+            display:flex;
+            justify-content:center;
+            
+          }
+          .container2 {
+            justify-content:center;
+            
+          }
+          .container > div {
+            margin:10px;
+            
+          }
+
+          .icon-logo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+          }
+          .image-cropper {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+          }
+          
+          .image-cropper > img {
+            display: inline;
+            margin: 0 auto;
+            height: 100%;
+            width: auto;
+          }
+
+

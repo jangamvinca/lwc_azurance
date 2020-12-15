@@ -1,0 +1,90 @@
+.planTitleCopy{
+/* Flexible plans, guaranteed low prices */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #333333;
+
+
+
+}
+.planTitle2Copy{
+
+/* Renters’ Insurance */
+
+left: 13.91%;
+right: 11.54%;
+top: 11.57%;
+bottom: 65.81%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 45px;
+/* or 125% */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #333333;
+
+}
+
+.planBodyCopy{
+
+ 
+
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 45px;
+    /* or 125% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #333333;
+    
+    }
+
+    .buttonactions{
+        background: #68B57C;
+        border-radius: 25px;
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #F5F6F8;
+        display: block;
+        display: inline-block;
+        padding:10px;
+        display:table;
+        margin: 0 auto;
+        margin-top:20px;
+}
+.container {
+    display:flex;
+    
+    justify-content:center;
+    
+  }
+  .container > div {
+    margin:10px;
+    background-color:white;
+    margin: 20px; 
+    padding: 20px;   
+}
+.topContainer
+{
+    background-color:#f3f3f3;
+}

@@ -1,0 +1,59 @@
+.carousalTitleCopy{
+/* The A-Z insurance that has your back */
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 59px;
+letter-spacing: 0.05em;
+color: #333333;
+}
+
+.carousalbodyCopy{
+    /* Instant savings. 24/7 assistance. We have everything you need. */
+    margin-top: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.05em;
+color: #333333;
+
+
+}
+
+.buttonactions{
+margin-top: 50px;
+background: #68B57C;
+border-radius: 25px;
+font-family: Futura;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #F5F6F8;
+display: block;
+display: inline-block;
+padding:10px;
+display:table;
+margin: 0 auto;
+margin-top:20px;
+}
+
+.container {
+    display:flex;
+    width:80%;
+    
+  }
+  .container > div {
+    margin:10px;    
+  }
+
+  .topcontainer {
+    display:flex;
+    justify-content: center;
+    
+  }

@@ -1,0 +1,86 @@
+.getQuoteTitlecopy{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 59px;
+letter-spacing: 0.05em;
+
+color: #333333;
+
+}
+
+.getQuoteBodycopy{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+letter-spacing: 0.05em;
+
+color: #333333;
+
+
+    
+    }
+
+    .getQuoteBodySmallcopy{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 35px;
+/* or 219% */
+letter-spacing: 0.05em;
+
+color: #333333;
+
+
+        
+        }
+        .buttonactions{
+            background: #68B57C;
+            border-radius: 25px;
+            font-family: Futura;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #F5F6F8;
+            display: block;
+            display: inline-block;
+            padding:10px;
+            display:table;
+            margin: 0 auto;
+            margin-top:20px;
+}
+
+
+.container {
+    display:flex;
+    width:80%;
+    
+  }
+
+  .form {
+
+    width:100px;
+    
+  }
+  .container > div {
+    margin:10px;    
+  }
+
+  .topcontainer {
+    display:flex;
+    justify-content: center;
+    background-color:#f3f3f3;
+  }
+
+  
+            

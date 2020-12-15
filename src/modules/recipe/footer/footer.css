@@ -1,0 +1,51 @@
+.footerTitlesCopy{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.05em;
+
+color: #333333;
+}
+    .footerBodyCopy{
+        /* Enterprise plans Security and compliance Adoption plans Economic impact Tracking your progress How to request a demo */
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    letter-spacing: 0.05em;
+    
+    color: #333333;
+    justify-content:center;
+ }
+
+    .sitemapTitlesCopy{
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        
+        color: #333333;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:20px;
+  }
+  .container > div {
+    margin-left:75px;
+    margin-right:75px;
+    
+    
+  }

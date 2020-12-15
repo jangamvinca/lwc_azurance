@@ -1,0 +1,54 @@
+
+
+
+.board1titleCopy{
+/* Homeowners, renters, and pet health insurance built for the 21st century */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+letter-spacing: 0.05em;
+
+color: #333333;
+
+
+
+}
+.board1BodyCopy{
+/* Azurance’s amazing coverage protects the stuff you own at home and everywhere else. */
+margin-top:50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+letter-spacing: 0.05em;
+
+color: #333333;
+
+
+
+}
+
+.container {
+    display:flex;
+    width:80%;
+    
+    
+  }
+  .container > div {
+    margin:10px;
+
+    
+  }
+
+  .topcontainer {
+    display:flex;
+    justify-content: center;
+    background-color:#f3f3f3;
+  }
+

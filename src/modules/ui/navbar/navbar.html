@@ -1,0 +1,30 @@
+<template>
+
+
+    <nav >
+
+            <div style="float:left; padding:20px">
+                <img src="./resources/images/logoAsset.png" alt="Azurance" width="50" height="40">
+            </div>
+            <div style="float:left">
+            <h1 class="title">Azurance</h1>
+        </div>
+        <ul>
+            <template for:each={navItems} for:item="navItem">
+                <li key={navItem.title}>
+
+                        <a
+                            href="#"
+                            title={navItem.title}
+                            data-item={navItem.value}
+                            onclick={handleNavItemClick}
+                        >
+                            {navItem.title}
+                        </a>
+                </li>
+            </template>
+        </ul>
+
+    </nav>
+
+</template>
