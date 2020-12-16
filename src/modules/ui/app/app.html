@@ -1,45 +1,40 @@
-
 <template>
     <div>
-    <ui-navbar
-    nav-items={navigationItems}
-    selected-item={currentNavigationItem}
-    oncategorychange={handleCategoryChange}
->
-</ui-navbar>
-</div>
+        <ui-navbar
+            nav-items={navigationItems}
+            selected-item={currentNavigationItem}
+            oncategorychange={handleCategoryChange}
+        >
+        </ui-navbar>
+    </div>
 
-                <div>
-                    <template if:true={navigationItems.Pricing.visible}>
-                        <recipe-carousal></recipe-carousal>
-                     
-                        <recipe-board1></recipe-board1>
-                   
-                        <recipe-board2></recipe-board2>
-                     
-                    </template>
-                    <template if:true={navigationItems.Testimonials.visible}>
-                        <recipe-testimony></recipe-testimony>
-                    
-                    </template>
-                    <template if:true={navigationItems.Claims.visible}>
-                        <recipe-login></recipe-login>
-                    </template>
-                    <template if:true={navigationItems.Community.visible}>
-                        <recipe-communitySearch></recipe-communitySearch>
-                        
-                        <recipe-sitemaps></recipe-sitemaps>
-                    </template>
-                    <template if:true={navigationItems.MyAccount.visible}>
-                        <recipe-login></recipe-login>
-                    </template>
-                    <template if:true={navigationItems.GetaQuote.visible}>
-                        <recipe-getquote></recipe-getquote>
-                       <recipe-plan></recipe-plan>
-                    </template>
-                </div>
-                <hr>
+    <div>
+        <template if:true={navigationItems.Pricing.visible}>
+            <recipe-carousal></recipe-carousal>
 
-        <recipe-footer></recipe-footer>
-    
+            <recipe-board1></recipe-board1>
+
+            <recipe-board2></recipe-board2>
+        </template>
+        <template if:true={navigationItems.Testimonials.visible}>
+            <recipe-testimony></recipe-testimony>
+        </template>
+        <template if:true={navigationItems.Claims.visible}>
+            <recipe-login></recipe-login>
+        </template>
+        <template if:true={navigationItems.Community.visible}>
+            <recipe-communitySearch></recipe-communitySearch>
+
+            <recipe-sitemaps></recipe-sitemaps>
+        </template>
+        <template if:true={navigationItems.MyAccount.visible}>
+            <recipe-login></recipe-login>
+        </template>
+        <template if:true={navigationItems.GetaQuote.visible}>
+            <recipe-getquote></recipe-getquote>
+            <recipe-plan></recipe-plan>
+        </template>
+    </div>
+
+    <recipe-footer></recipe-footer>
 </template>

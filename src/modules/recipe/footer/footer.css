@@ -1,18 +1,16 @@
-.footerTitlesCopy{
+.footerTitlesCopy {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.05em;
-
-color: #333333;
+    color: #333333;
 }
-    .footerBodyCopy{
-        /* Enterprise plans Security and compliance Adoption plans Economic impact Tracking your progress How to request a demo */
-    
-    
+.footerBodyCopy {
+    /* Enterprise plans Security and compliance Adoption plans Economic impact Tracking your progress How to request a demo */
+
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -20,32 +18,43 @@ color: #333333;
     line-height: 20px;
     /* or 125% */
     letter-spacing: 0.05em;
-    
+
     color: #333333;
-    justify-content:center;
- }
 
-    .sitemapTitlesCopy{
+    margin-top: 20px;
+}
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0.05em;
-        
-        color: #333333;
+.footerBodyCopy > div {
+    margin-top: 10px;
+}
+
+.sitemapTitlesCopy {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+
+    color: #333333;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 5px;
 }
 
 .container {
-    display:flex;
-    justify-content:center;
-    width:100%;
-    margin-top:20px;
-  }
-  .container > div {
-    margin-left:75px;
-    margin-right:75px;
-    
-    
-  }
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+.container > .icon-logo {
+    display: inline-block;
+}
