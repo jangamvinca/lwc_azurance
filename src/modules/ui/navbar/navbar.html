@@ -1,23 +1,15 @@
 <template>
-    <div class="nav">
-        <div class="logo">
-            <div class="logo-image">
-                <img
-                    src="./resources/images/logoAsset.png"
-                    alt="Azurance"
-                    width="50"
-                    height="40"
-                />
-            </div>
-            <div class="logo-text">
-                <h1 class="title">Azurance</h1>
-            </div>
+    <div class="flex justify-around items-center my-5">
+        <div class="flex justify-center items-center">
+            <img class="w-14" src="./resources/images/logoAsset.png" />
+            <div class="text-3xl font-bold ml-2">Azurance</div>
         </div>
-        <div class="nav-items">
+        <div class="flex">
             <template for:each={navItems} for:item="navItem">
-                <div class="nav-item" key={navItem.title}>
+                <div class="mx-2" key={navItem.title}>
                     <a
                         href="#"
+                        class="hover:text-gray-800"
                         title={navItem.title}
                         data-item={navItem.value}
                         onclick={handleNavItemClick}

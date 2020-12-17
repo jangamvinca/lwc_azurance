@@ -1,79 +1,46 @@
 <template>
-    <div class="container">
-        <!-- <div>
-            <p>Hello, {greeting}!</p>
-            <ui-input
-                label="Name"
-                value={greeting}
-                onchange={handleChange}
-            ></ui-input>
-        </div> 
-
-        <recipe-view-source source="recipe/helloBinding" slot="footer">
-            Change the value of a bound property when the value of an input
-            field changes. Type something in the input field to see the recipe
-            in action.
-        </recipe-view-source> -->
-        <div class="sitemapTitlesCopy">
-            <div class="logo">
-                <div class="icon-logo">
-                    <img
-                        src="./resources/images/logoAsset.png"
-                        alt="Azurance"
-                        width="50"
-                        height="40"
-                    />
-                </div>
-                Azurance
+    <div
+        class="flex justify-around items-top py-12 border-solid border-t border-gray-200"
+    >
+        <div class="flex justify-center items-start">
+            <div class="flex items-center">
+                <img
+                    class="w-10"
+                    src="./resources/images/logoAsset.png"
+                    alt="Azurance"
+                />
+                <div>Azurance</div>
             </div>
         </div>
-        <div class="footerTitlesCopy">
-            Product
-
-            <div class="footerBodyCopy">
-                <div>Product</div>
+        <div class="flex justify-around">
+            <div class="mx-5 flex flex-col space-y-2">
+                <div class="font-bold">Product</div>
                 <div>Pricing</div>
                 <div>Enterprise</div>
                 <div>Partners</div>
                 <div>Integrations</div>
                 <div>Framework</div>
             </div>
-        </div>
-        <!---->
-        <div class="footerTitlesCopy">
-            Team
-
-            <div class="footerBodyCopy">
-                <div>About Us</div>
+            <div class="mx-5 flex flex-col space-y-2">
+                <div class="font-bold">About Us</div>
                 <div>Contact Us</div>
                 <div>Careers</div>
                 <div>Press</div>
             </div>
-        </div>
-        <!---->
-        <div class="footerTitlesCopy">
-            Use Cases
-
-            <div class="footerBodyCopy">
-                <div>Project Management</div>
+            <div class="mx-5 flex flex-col space-y-2">
+                <div class="font-bold">Project Management</div>
                 <div>Marketing</div>
                 <div>Software Development</div>
                 <div>Human Rescources</div>
                 <div>Sales</div>
             </div>
-        </div>
-        <!---->
-        <div class="footerTitlesCopy">
-            Resources
-
-            <div class="footerBodyCopy">
-                <div>Knowledge</div>
+            <div class="mx-5 flex flex-col space-y-2">
+                <div class="font-bold">Knowledge</div>
                 <div>Guides</div>
                 <div>Templates</div>
                 <div>Community</div>
                 <div>Podcast</div>
             </div>
         </div>
-        <!---->
     </div>
 </template>

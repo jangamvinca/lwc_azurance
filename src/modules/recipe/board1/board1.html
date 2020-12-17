@@ -1,33 +1,22 @@
 <template>
-    <div class="topcontainer">
-        <div class="container">
-            <!-- <div>
-                    <p>Hello, {greeting}!</p>
-                    <ui-input
-                        label="Name"
-                        value={greeting}
-                        onchange={handleChange}
-                    ></ui-input>
-                </div> 
-
-                <recipe-view-source source="recipe/helloBinding" slot="footer">
-                    Change the value of a bound property when the value of an input
-                    field changes. Type something in the input field to see the recipe
-                    in action.
-                </recipe-view-source> -->
-            <div class="board-content">
-                <div class="board1titleCopy">
+    <div class="flex justify-center items-center bg-gray-100">
+        <div class="flex justify-center items-center py-12 w-4/5">
+            <div class="w-1/2 mx-5">
+                <div class="text-2xl mb-4 font-medium">
                     Homeowners, renters, and pet health insurance built for the
                     21st century
                 </div>
-
-                <div class="board1BodyCopy">
+                <div>
                     Azurance’s amazing coverage protects the stuff you own at
                     home and everywhere else.
                 </div>
             </div>
-            <div class="icon-logo">
-                <img src="./resources/images/board1.png" alt="Azurance" />
+            <div class="w-1/2 flex justify-center items-center">
+                <img
+                    class="w-2/3 border border-solid border-gray-200"
+                    src="./resources/images/board1.png"
+                    alt="Azurance"
+                />
             </div>
         </div>
     </div>
